@@ -4,5 +4,9 @@ def foo_bar(foo):
 	else:
 		print("foo")
 
-foo()
-bar()
+def baz():
+	print("baz")
+
+foo_bar(True)
+foo_bar(False)
+baz()
