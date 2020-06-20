@@ -1,9 +1,8 @@
-def foo():
-	print("bar")
-
-def bar():
-	print("foo")
-
+def foo_bar(foo):
+	if foo:
+		print("bar")
+	else:
+		print("foo")
 
 foo()
 bar()
